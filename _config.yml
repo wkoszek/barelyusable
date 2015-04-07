@@ -3,7 +3,7 @@ title: Barely Usable
 email: hello@barelyusable.com
 description: > # this means to ignore newlines until "baseurl:"
   Usability and User Experience; as observed on a daily basis.
-baseurl: /
+baseurl:
 url: "http://barelyusable.com" # the base hostname & protocol for your site
 twitter_username: barelyusable
 #github_username:

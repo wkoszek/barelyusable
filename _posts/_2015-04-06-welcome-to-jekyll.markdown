@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Barely Usable"
 date:   2015-04-06 10:35:52
 categories: jekyll update
 ---

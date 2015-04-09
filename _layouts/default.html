@@ -3,16 +3,48 @@
 	{% include head.html %}
 	<body>
 		<div class="container">
-			{% include header.html %}
 			<div class="row">
-				<div class="col-sm-2">
-					
+				<div class="col-md-3">
+					{% include header.html %}
 				</div>
-				<div class="col-sm-8">
+				<div class="col-md-5">
+					&nbsp;
+				</div>
+				<div class="col-md-4">
+					<!--
+						<form class="form-inline">
+							<div class="form-group">
+								<label class="sr-only" for="query">Email address</label>
+								<input type="search" class="form-control" id="query" placeholder="Search Google">
+							</div>
+							<button type="submit" class="btn btn-default">Search</button>
+						</form>
+					-->
+					<gcse:search></gcse:search>
+					<script>
+					  (function() {
+					    var cx = '017230485864968957396:k4i78s00cya';
+					    var gcse = document.createElement('script');
+					    gcse.type = 'text/javascript';
+					    gcse.async = true;
+					    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+						'//www.google.com/cse/cse.js?cx=' + cx;
+					    var s = document.getElementsByTagName('script')[0];
+					    s.parentNode.insertBefore(gcse, s);
+					  })();
+					</script>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3">
+					<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+				</div>
+				<div class="col-sm-5">
 					{{ content }}
+				</div>
+				<div class="col-sm-4">
 				</div>
 			</div>
 		</div>
-		{% include footer.html %}
 	</body>
 </html>

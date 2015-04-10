@@ -9,7 +9,9 @@
 				</div>
 				<div class="col-md-6">
 					<br>
-					<i class="fa fa-rss fa-2x"></i>
+					<a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+						<i class="fa fa-rss fa-2x"></i>
+					</a>
 					&nbsp;
 					<i class="fa fa-facebook fa-2x"></i>
 					&nbsp;
@@ -51,7 +53,6 @@
 			<div class="row">
 				<div class="col-sm-3">
 					<a href="about/">About</a>
-					<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 				</div>
 				<div class="col-sm-6">
 					{{ content }}

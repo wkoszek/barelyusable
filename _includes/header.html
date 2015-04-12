@@ -1,4 +1,48 @@
-
 	<header>
-		<a href="/"><h3>{{ site.title }}</h3></a>
+		<div class="row">
+			<div class="col-md-3 hdrlogo">
+				<a href="/" class="logo">{{ site.title }}</a>
+			</div>
+			<div class="col-md-6 hdrsocial">
+				<a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+					<i class="fa fa-rss fa-2x"></i>
+				</a>
+				&nbsp;
+				<i class="fa fa-facebook fa-2x"></i>
+				&nbsp;
+				<i class="fa fa-twitter fa-2x"></i>
+				&nbsp;
+				<i class="fa fa-pinterest-p fa-2x"></i>
+				&nbsp;
+				<i class="fa fa-linkedin fa-2x"></i>
+				&nbsp;
+				<i class="fa fa-reddit fa-2x"></i>
+				&nbsp;
+				<i class="fa fa-hacker-news fa-2x"></i>
+			</div>
+			<div class="col-md-3 hdrsearch">
+				<!--
+					<form class="form-inline">
+						<div class="form-group">
+							<label class="sr-only" for="query">Email address</label>
+							<input type="search" class="form-control" id="query" placeholder="Search Google">
+						</div>
+						<button type="submit" class="btn btn-default">Search</button>
+					</form>
+				-->
+				<gcse:search></gcse:search>
+				<script>
+				  (function() {
+				    var cx = '017230485864968957396:k4i78s00cya';
+				    var gcse = document.createElement('script');
+				    gcse.type = 'text/javascript';
+				    gcse.async = true;
+				    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+					'//www.google.com/cse/cse.js?cx=' + cx;
+				    var s = document.getElementsByTagName('script')[0];
+				    s.parentNode.insertBefore(gcse, s);
+				  })();
+				</script>
+			</div>
+		</div>
 	</header>

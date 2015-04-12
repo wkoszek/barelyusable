@@ -22,11 +22,16 @@
 
 		<script type="text/javascript" src="http://fast.fonts.net/jsapi/e5522bc9-bdff-4116-9c26-5f4785c7f41a.js"></script>
 		<style>
-			XXXheader {
-				margin-top: 10px;
-				background-image: url(/images/barelyusable_logo.svg);
-				height: 100px; width: 200px; 
-				border: 1px solid black;
+			header {
+				height: 100px;
+			}
+			.hdrlogo,.hdrsocial
+			{
+				line-height: 100px;
+				vertical-align: middle;
+			}
+			.hdrsearch {
+				height: 102px;
 			}
 			.footer {
 				position: absolute;
@@ -35,13 +40,20 @@
 				/* Set the fixed height of the footer here */
 				height: 60px;
 			}
-			h1,h2,h3,h4,h5 {
+			a.logo, h1,h2,h3,h4,h5 {
 				font-family: 'Avenir';
 			}
 			.post-meta {
 				font-size: 120%;
 				font-style: italic;
 				font-family:'NewBaskervilleW01-Roman';
+			}
+
+			h1,a.logo {
+				font-size: 150%;
+			}
+			a, a:hover, a:active, a:visited {
+				color: black;
 			}
 
 			/*
@@ -64,13 +76,6 @@
 			font-family:'BookmanOldStyleW01-Bold_691973';
 			font-family:'BookmanOldStyleW10-Ital';
 			*/
-
-			h1 {
-				font-size: 300%;
-			}
-			a, a:hover, a:active, a:visited {
-				color: black;
-			}
 		</style>
 
 	</head>

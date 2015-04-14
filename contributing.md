@@ -1,3 +1,8 @@
+---
+layout: page
+title: Contributing
+permalink: /contributing/
+---
 Contributing to Barely Usable
 -----------------------------
 

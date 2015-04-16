@@ -41,6 +41,14 @@ to try out being a customer could help your sales skyrocket.  Example: Did you
 know we offer 30 days of our product for free? Click here to sign up for your
 no-obligation trial – no credit card number required!
 
+https://www.twilio.com/blog/2012/11/increase-app-downloads-with-mobile-app-distribution-powered-by-twilio.html
+What I see as a future trend and maybe even best practice is a field asking for
+the visitor’s phone number and a “Get the app”, “Text me” or “Get link” call to
+action. A SMS with a direct link to download the app is then sent to the future
+user’s phone.
+
+BARCODE
+
 Was this article useful? Like it? Hate it? Share your opinions.
 
 Share this article

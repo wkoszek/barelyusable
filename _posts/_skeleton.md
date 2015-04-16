@@ -54,3 +54,5 @@ Was this article useful? Like it? Hate it? Share your opinions.
 Share this article
 Subscribe [RSS]
 Follow Barely Usable
+
+Other interesting articles.

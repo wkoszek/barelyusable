@@ -31,7 +31,9 @@ For the first year 2015:
 - 50 followers via Pinterest
 - 50 followers via ...
 
-
+To investigate
+--------------
+Office hours for Skype?
 
 Structure of this directory
 ---------------------------

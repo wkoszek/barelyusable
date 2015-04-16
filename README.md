@@ -1,6 +1,37 @@
 # barelyusable
 BarelyUsable.com stuff
 
+Idea
+----
+- colaborative blog with guest writers
+- fairly niche, however should target UI/UX designers
+- should not be too negative, but instructional instead
+  - every post should have a section on how company decided
+    to implement a feature
+  - what's the problem with this approach
+  - how it could be engineered better
+- main topic
+  - usability engineering
+  - UI/UX
+  - design of nowadays things
+- Reason for being:
+  - noticing problems with usability in front of the computer, but not only
+  - trying to understand if other users also face similar problems
+  - getting better at UI/UX design
+  - part of frustration, part of it is trying to really deep dive into usability of engineering problems.
+
+Readership goals
+----------------
+
+For the first year 2015:
+- 25 articles
+- 100 followers via e-mail
+- 50 followers via Twitter
+- 50 followers via Facebook
+- 50 followers via Pinterest
+- 50 followers via ...
+
+
 
 Structure of this directory
 ---------------------------

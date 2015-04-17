@@ -1,9 +1,11 @@
 	<header>
-		<div class="row">
-			<div class="col-md-3 hdrlogo">
-				<a href="/" class="logo">{{ site.title }}</a>
+		<div class="row" style="border: datted 1px orange">
+			<div class="col-md-2 hdrlogo" style="border: datted 1px red">
+				{{ site.title }}
+				<br>
+				How to make it simple
 			</div>
-			<div class="col-md-6 hdrsocial">
+			<div class="col-sm-4 col-md-offset-1 hdrsocial" style="border: datted 1px blue">
 				<a href="{{ "/feed.xml" | prepend: site.baseurl }}">
 					<i class="fa fa-rss fa-2x"></i>
 				</a>
@@ -36,7 +38,18 @@
 					<i class="fa fa-youtube fa-2x"></i>
 				</a>
 			</div>
-			<div class="col-md-3 hdrsearch">
+			<div class="col-sm-3 hdrsocial" style="border: datted 1px blue; align: right;">
+					<script type="text/javascript">
+					(function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+					(w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+					e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+					})(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+					_st('install','qDdFobvs94M3tMiFAyfx','2.0.0');
+					</script>
+					<input type="text" width="100%" class="st-default-search-input">
+			</div>
+			<div class="col-md-2 hdrsearch">
 				<!--
 					<form class="form-inline">
 						<div class="form-group">
@@ -47,16 +60,6 @@
 					</form>
 				-->
 				<!--
-					<script type="text/javascript">
-					(function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-					(w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-					e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-					})(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-					_st('install','qDdFobvs94M3tMiFAyfx','2.0.0');
-					</script>
-					<input type="text" class="st-default-search-input">
-				-->
 				<gcse:search></gcse:search>
 				<script>
 				  (function() {
@@ -70,6 +73,7 @@
 				    s.parentNode.insertBefore(gcse, s);
 				  })();
 				</script>
+				-->
 			</div>
 		</div>
 	</header>

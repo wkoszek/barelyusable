@@ -13,6 +13,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
+		<link rel="stylesheet" href="/css/charter/webfonts/stylesheet.css">
+
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -25,12 +27,16 @@
 			* {
 			  border-radius: 0 !important;
 			  }
+			body {
+				border-top: solid 3px black;
+				padding-top: 20px;
+			}
 			header {
 				height: 100px;
 			}
 			.hdrlogo,.hdrsocial
 			{
-				line-height: 100px;
+				height: 100px;
 				vertical-align: middle;
 			}
 			.hdrsearch {
@@ -43,17 +49,28 @@
 				/* Set the fixed height of the footer here */
 				height: 60px;
 			}
-			a.logo, h1,h2,h3,h4,h5 {
-				font-family: 'Avenir';
+			a.logo, h1,h2,h3,h5 {
+				/* font-family: 'Avenir'; */
+				font-family: 'charterbold';
+			}
+			h4 {
+				font-family: 'charterregular';
+				font-size: 24px;
 			}
 			a.logo {
 				font-weight: bold;
 			}
 			.post-meta {
 				font-size: 120%;
-				font-style: italic;
-				font-family:'NewBaskervilleW01-Roman';
+				font-family: 'charteritalic';
+				/* font-family:'NewBaskervilleW01-Roman'; */
 			}
+			.post-content {
+				font-size: 160%;
+				text-align: justify;
+				font-family: 'charterregular';
+			}
+
 
 			h1,a.logo {
 				font-size: 150%;

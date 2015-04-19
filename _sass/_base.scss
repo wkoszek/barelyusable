@@ -21,6 +21,8 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    border-top: solid 3px black;
+    padding-top: 20px;
 }
 
 
@@ -30,7 +32,7 @@ body {
  */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
-ul, ol, dl, figure,
+ul, ol, dl, figure
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
@@ -80,7 +82,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-family: "charterbold";
 }
 
 

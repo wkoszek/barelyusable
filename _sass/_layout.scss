@@ -167,6 +167,10 @@
     font-size: 20px;
 }
 
+.post-list, .post-link {
+    font-family: "charterregular";
+    }
+
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -177,6 +181,7 @@
 }
 
 .post-meta {
+    font-family: "charteritalic";
     font-size: $small-font-size;
     color: $grey-color;
 }
@@ -196,18 +201,20 @@
 }
 
 .post-title {
+    font-family: "charterbold";
     font-size: 42px;
     letter-spacing: -1px;
-    line-height: 1;
+    line-height: 1.5;
 
     @include media-query($on-laptop) {
         font-size: 36px;
     }
 }
 
-.post-content {
+.menu, .post-content {
+    font-size: $base-font-size;
     margin-bottom: $spacing-unit;
-
+    font-family: "charterregular";
     h2 {
         font-size: 32px;
 
@@ -231,4 +238,13 @@
             font-size: 18px;
         }
     }
+}
+div.menu {
+	font-family: "charterregular";
+}
+.subscribe, .sr-only {
+font-size: 14px;
+}
+.mc-embedded-subscribe {
+	margin-top: 5px;
 }

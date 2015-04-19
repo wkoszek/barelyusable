@@ -13,13 +13,17 @@ layout: default
 			{% if page.meta %}
 				• {{ page.meta }}
 			{% endif %}
+				• <a href="#share">SHARE!</a>
 		</p>
 	</header>
 </div>
 <div class="col-md-12 content">
 	<article class="post-content">
-		{% include social.html %}
 		{{ content }}
+		<a name="share"></a>
+		Sharing appreciated:
+		<hr>
+		{% include social.html %}
 	</article>
 </div>
 

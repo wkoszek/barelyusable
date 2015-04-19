@@ -12,4 +12,9 @@ Hackernews
 YouTube
 SwipeType
 Bitly
-
+Tumblr
+- tumblr.barelyusable.com
+DIGG
+- wired to Twitter
+Instagram
+- http://instagram.com/barelyusable

@@ -27,7 +27,29 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$screen-sm-min: 768px;
+$screen-sm-max: 991px;
+$screen-md-min: 992px;
+$screen-md-max: 1199px;
+$screen-lg-min: 1200px;
 
+$deck-ad-h:	90px;
+$carbon-ad-h:	100px;
+
+@media (max-width: $screen-sm-min) {
+}
+@media (min-width: $screen-sm-min) {
+}
+@media (min-width: $screen-md-min) {
+	.deck_ads {
+		height: 90px;
+	}
+	.carbon_ads {
+		height: 100px;
+	}
+}
+@media (min-width: $screen-lg-min) {
+}
 
 // Using media queries with like this:
 // @include media-query($on-palm) {

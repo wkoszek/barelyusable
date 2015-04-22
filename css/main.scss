@@ -35,6 +35,7 @@ $screen-lg-min: 1200px;
 
 $deck-ad-h:	90px;
 $carbon-ad-h:	100px;
+$ad-h: $deck-ad-h + $carbon-ad-h;
 
 @media (max-width: $screen-sm-min) {
 }
@@ -42,10 +43,13 @@ $carbon-ad-h:	100px;
 }
 @media (min-width: $screen-md-min) {
 	.deck_ads {
-		height: 90px;
+		height: $deck-ad-h;
 	}
 	.carbon_ads {
-		height: 100px;
+		height: $carbon-ad-h;
+	}
+	.ads {
+		height: $ad-h;
 	}
 }
 @media (min-width: $screen-lg-min) {

@@ -55,10 +55,17 @@ $ad-h: $deck-ad-h + $carbon-ad-h;
 @media (min-width: $screen-lg-min) {
 }
 
-.menu_button {
-	border: solid 1px black;
-	padding: 4%;
+@media (max-width: $screen-sm-min) {
+	.searchbox {
+		margin-top: 3%;
+		margin-bottom: 3%;
+	}
+	.menu_button {
+		border: solid 1px black;
+		padding: 4%;
+	}
 }
+
 
 // Using media queries with like this:
 // @include media-query($on-palm) {

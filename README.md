@@ -20,6 +20,12 @@ Idea
   - getting better at UI/UX design
   - part of frustration, part of it is trying to really deep dive into usability of engineering problems.
 
+
+Blurbs
+------
+
+TODO: Put reviewed stuff here.
+
 Readership goals
 ----------------
 

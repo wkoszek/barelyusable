@@ -4,14 +4,23 @@ title: About
 permalink: /about/
 ---
 
+<!--- PREAD! -->
+I wrote the site in 2015; it is one of my few websites targeted towards
+bigger audience. All the design and implementation was done by myself, thus
+problems are likely. Do not hesitate to provide the feedback over e-mail:
+
+[wojciech@koszek.com](mailto:wojciech@koszek.com)
+
+More on the site below.
+
 ### Agenda of the website
 
-- Barely Usable is a collaborative website; guest writers are welcome.
-- It's supposed to target a wide variety of individuals, from designers to
+Barely Usable is a collaborative website; guest writers are welcome.
+It's supposed to target a wide variety of individuals, from designers to
   engineers.
-- Content should not be too negative but instead instructional. See the “Contributing” page for the format of articles.
+Content should not be too negative but instead instructional. See the “Contributing” page for the format of articles.
 
-### Main topics
+Main topics of this website include:
 
 - Usability engineering
 - UI/UX
@@ -33,8 +42,7 @@ Barely Usable was created because:
 - We hope to engage with a community who is not afraid of diving deep into
   usability engineering problems.
 
-Disclaimer
-----------
+### Disclaimer
 
 1. This site does not represent the thoughts, intentions, plans, or
    strategies of my employer. It is solely my opinion. Similarly, the

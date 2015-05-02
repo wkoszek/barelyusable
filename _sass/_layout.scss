@@ -240,7 +240,11 @@
     }
 }
 div.menu {
-	font-family: "charterregular";
+	font-weight: bold;
+	font-size: 22px;
+	li {
+		list-style-type: none;
+	}
 }
 .subscribe, .sr-only, .statcounter {
 	font-size: 14px;

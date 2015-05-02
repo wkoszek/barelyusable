@@ -8,12 +8,11 @@ layout: default
 			{% for post in site.posts %}
 				<li>
 					<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-					<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><br><br>
-					{{ post.content | strip_html | truncatewords:30}}<br>
-					<a href="{{ post.url }}">
-						READ MORE.. <i class="fa fa-arrow-circle-o-right"></i>
-					</a>
-
+					<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<!--
+					{{ post.content | strip_html | truncatewords:30}}
+					<a href="{{ post.url }}">More&nbsp;<i class="fa fa-arrow-circle-o-right"></i> </a>
+-->
 				</li>
 			{% endfor %}
 		</ul>

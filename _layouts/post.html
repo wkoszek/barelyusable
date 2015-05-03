@@ -13,7 +13,7 @@ layout: default
 			{% if page.meta %}
 				• {{ page.meta }}
 			{% endif %}
-				• <a href="#share">SHARE! <i class="fa fa-share-alt"></i></a>
+			• <a href="#share">SHARE! <i class="fa fa-share-alt"></i></a>
 		</p>
 	</header>
 </div>
@@ -22,6 +22,40 @@ layout: default
 		{{ content }}
 	</article>
 </div>
+
+<div class="col-md-5 nav-prev">
+	{% if page.previous != nil %}
+		<a href="{{page.previous.url}}">
+			<!--
+			<h2><i class="fa fa-arrow-left"></i>&nbsp;Previous</h2>
+			-->
+			<h2>Previous</h2>
+		</a>
+		</i>{{page.previous.title}}</i>
+	{% else %}
+		<h2 style="color: lightgray">
+			<i class="fa fa-times"></i>&nbsp;Previous
+		</h2>
+	{% endif %}
+</div>
+
+<div class="col-md-2">
+</div>
+
+<div class="col-md-5 nav-next">
+	{% if page.next != nil %}
+		<a href="{{page.next.url}}">
+			<h2>Next</h2>
+			<!-- &nbsp;<i class="fa fa-arrow-right"></i></h2> -->
+			</i>{{page.next.title}}</i>
+		</a>
+	{% else %}
+		<h2 style="color: lightgray">
+			Next&nbsp;<i class="fa fa-times"></i>
+		</h2>
+	{% endif %}
+</div>
+
 <div class="col-md-12 content">
 	<hr>
 	<a name="share"></a>

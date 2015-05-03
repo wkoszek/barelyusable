@@ -1,0 +1,20 @@
+---
+layout: default
+title: Archive
+permalink: /archive/
+---
+
+<div class="col-md-12">
+	<div class="home">
+		<ul class="post-list">
+			{% for post in site.posts %}
+				<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+				{{ post.title }}
+				<i class="fa fa-arrow-circle-o-right"></i>
+				</a>
+				<br>
+			{% endfor %}
+		</ul>
+	</div>
+</div>

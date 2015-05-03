@@ -134,3 +134,10 @@ font-family:'BookmanOldStyleW01-Ital';
 font-family:'BookmanOldStyleW01-Bold_691970';
 font-family:'BookmanOldStyleW01-Bold_691973';
 font-family:'BookmanOldStyleW10-Ital';
+
+SITEMAP / ROBOTS
+----------------
+http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/
+
+http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/
+

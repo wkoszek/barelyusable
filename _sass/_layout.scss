@@ -210,7 +210,7 @@
     }
 }
 
-.menu, .post-content {
+.post-content {
     font-size: $base-font-size;
     margin-bottom: $spacing-unit;
     font-family: "charterregular";
@@ -237,16 +237,17 @@
             font-size: 18px;
         }
     }
+
 }
 div.menu {
-	font-weight: bold;
-	font-size: 22px;
+	font-family: "charterregular";
+	font-size: $base-font-size * 1.4;
 	li {
 		list-style-type: none;
 	}
 }
 .subscribe, .sr-only, .statcounter {
-	font-size: 14px;
+	font-size: 50%;
 }
 .mc-embedded-subscribe {
 	margin-top: 5px;

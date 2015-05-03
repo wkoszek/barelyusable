@@ -167,11 +167,8 @@
     font-size: 20px;
 }
 
-.post-list, .post-link {
-    font-family: "charterregular";
-    }
-
 .post-list {
+    font-family: "charterregular";
     margin-left: 0;
     list-style: none;
 
@@ -187,8 +184,10 @@
 }
 
 .post-link {
+    font-family: "charterregular";
+    font-weight: bold;
     display: block;
-    font-size: 24px;
+    font-size: 150%;
 }
 
 

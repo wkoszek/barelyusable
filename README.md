@@ -24,7 +24,24 @@ Idea
 Blurbs
 ------
 
-TODO: Put reviewed stuff here.
+(2) 1-line introduction to my website about usability 
+
+Barely Usable is a usability engineering website, where the design and
+construction of real-life and Internet products are analyzed and criticized.
+
+(3) 1-paragraph introduction to my website about usability
+
+Barely Usable was created in 2015 based on the belief that the design and
+construction of usable products is extremely difficult and that the only way
+to learn usability engineering is to look, notice, and criticize usability
+problems and suggest possible solutions. The domain of usability has been
+well known for years, yet the awareness of its importance has been scarce.
+Barely Usable is meant to be a website where enthusiasts of user interface,
+user experience and human-computer interaction can collaborate on coming up
+with new and better solutions, making the world easier to use. We hope that
+gathering every resource together will help you develop the level of
+sensitivity necessary for creating usable objects. Barely Usable is brought
+to you by the founding team of Barvoy Inc. 
 
 Readership goals
 ----------------

@@ -272,7 +272,7 @@ div.menu {
 	top: 0;
 	left: 0;
 	background: transparent;
-	text-align: center;
+	text-align: left;
 	display: block;
 
 	-o-transform: translate3d(0, 0, 0);
@@ -295,7 +295,6 @@ div.menu {
 
 	height: 100%;
 	width: 100%;
-	text-align: center;
 
 	z-index: 0;
 
@@ -329,7 +328,7 @@ div.menu {
 	display: block;
 	text-decoration: none !important;
 	line-height: 1.5;
-	font-size: 300%;
+	font-size: 200%;
 	color: #fff;
 	opacity: 0;
 	border: none;

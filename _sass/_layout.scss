@@ -266,12 +266,13 @@ div.menu {
 	height: 100%;
 }
 #body-nav {
+	font-family: "charterbold";
 	position: fixed;
 	overflow: hidden;
 	top: 0;
 	left: 0;
 	background: transparent;
-	text-align: left;
+	text-align: center;
 	display: block;
 
 	-o-transform: translate3d(0, 0, 0);
@@ -280,9 +281,9 @@ div.menu {
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 
-	-webkit-transition: background 500ms ease;
-	-moz-transition: background 500ms ease;
-	transition: background 500ms ease;
+	-webkit-transition: background 200ms ease;
+	-moz-transition: background 200ms ease;
+	transition: background 200ms ease;
 
 	z-index: 999999999;
 	-webkit-touch-callout: none;
@@ -303,8 +304,7 @@ div.menu {
 	box-shadow: none !important;
 }
 .show-nav #body-nav {
-	background: rgb(140, 240, 250);
-	background: rgba(140, 240, 250, 0.95);
+	background: rgba(20, 20, 20, 0.97);
 	z-index: 1;
 }
 .hide-nav #body-nav {
@@ -323,18 +323,19 @@ div.menu {
 	-ms-transform: translateY(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateY(-50%);
+		list-style-type: none;
 }
 #body-nav ul li a {
 	display: block;
 	text-decoration: none !important;
 	line-height: 1.5;
-	font-size: 200%;
+	font-size: 300%;
 	color: #fff;
 	opacity: 0;
 	border: none;
-	-webkit-transition: all 400ms cubic-bezier(.17,.67,.38,1.46);
-	-moz-transition: all 400ms cubic-bezier(.17,.67,.38,1.46);
-	transition: all 400ms cubic-bezier(.17,.67,.38,1.46);
+	-webkit-transition: all 200ms cubic-bezier(.17,.67,.38,1.46);
+	-moz-transition: all 200ms cubic-bezier(.17,.67,.38,1.46);
+	transition: all 200ms cubic-bezier(.17,.67,.38,1.46);
 
 	-webkit-transform: scale(0.3);
 	-moz-transform: scale(0.3);
@@ -388,4 +389,32 @@ div.menu {
 .social {
 	padding-top: 2%;
 	padding-bottom: 2%;
+}
+
+.slideout-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  width: 256px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: none;
+}
+
+.slideout-panel {
+  position:relative;
+  z-index: 1;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+  overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+  display: block;
 }

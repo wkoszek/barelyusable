@@ -303,7 +303,7 @@ div.menu {
 	box-shadow: none !important;
 }
 .show-nav #body-nav {
-	background: rgba(20, 20, 20, 0.97);
+	background: rgba(250, 250, 250, 0.97);
 	z-index: 1;
 }
 .hide-nav #body-nav {
@@ -315,7 +315,6 @@ div.menu {
 #body-nav ul {
 	position: absolute;
 	left: 0%;
-	width: 100%;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
@@ -344,6 +343,11 @@ div.menu {
 }
 .show-nav #body-nav ul li a {
 	opacity: 1;
+	border: solid 1px black;
+	padding: 1%;
+	color: black;
+	text-align: center;
+	width: 100%;
 
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
@@ -383,7 +387,7 @@ div.menu {
 }
 .toggle-nav .option {
 	left: auto;
-	right: 125%;
+	right: 25%;
 }
 .social {
 	padding-top: 2%;

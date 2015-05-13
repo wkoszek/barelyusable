@@ -4,17 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<!--- PREAD! -->
-I wrote the site in 2015; it is one of my few websites targeted towards
-bigger audience. All the design and implementation was done by myself, thus
-problems are likely. Do not hesitate to provide the feedback over e-mail:
-
-[wojciech@koszek.com](mailto:wojciech@koszek.com)
-
-More on the site below.
-
-### Agenda of the website
-
 Barely Usable is a collaborative website; guest writers are welcome.
 It's supposed to target a wide variety of individuals, from designers to
   engineers.
@@ -62,3 +51,10 @@ Barely Usable was created because:
 4. Fair use: To make Barely Usable appealing and interesting, 3rd-party
    photos, infographics, and images are used. Credit is given whenever such
    resources are used or linked.
+
+<!--- PREAD! -->
+
+### Author
+
+Wojciech Adam Koszek [wojciech@koszek.com](mailto:wojciech@koszek.com) wrote
+the site in 2015.  Do not hesitate to send me feedback over e-mail.

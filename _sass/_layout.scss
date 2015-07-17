@@ -90,6 +90,10 @@
 /**
  * Site footer
  */
+.footer {
+	font-size: 75%;
+}
+
 .site-footer {
     padding: $spacing-unit 0;
 }
@@ -398,4 +402,5 @@ div.menu {
 .social {
 	padding-top: 2%;
 	padding-bottom: 2%;
+	font-size: 75%;
 }

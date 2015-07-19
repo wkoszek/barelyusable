@@ -6,8 +6,6 @@ categories: usability
 author: Wojciech Koszek, wojciech@koszek.com
 ---
 
-## ...Is Barely Usable
-
 Why are there 100 wireless networks around yet I can't use any of them?
 
 ![](/images/2015-07-20-usability_wifi-01.png)

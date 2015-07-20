@@ -7,13 +7,12 @@ author: Wojciech Koszek, wojciech@koszek.com
 ---
 
 Why are there 100 wireless networks around yet I can't use any of them?
-
-![](/images/2015-07-20-usability_wifi-01.png)
-
 Why are all these Wi-Fi networks using some strange authentication,
 which basically doesn't let me to tell them, "Hey, I'm the guy with the
 laptop sipping coffee. All I want to do is sort my to-do list and read
 3 blog articles. Could you PLEASE let me use your Wi-Fi?"
+
+![](/images/2015-07-20-usability_wifi-01.png)
 
 And the answer for now is, "NO! Go away!"
 

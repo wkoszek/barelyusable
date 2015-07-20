@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Wi-Fi Nowadays"
+title:  "Wi-Fi Unusability"
 date:   2015-07-20
 categories: usability
 author: Wojciech Koszek, wojciech@koszek.com

@@ -8,7 +8,7 @@ layout: default
 		<p class="post-meta">
 			{{ page.date | date: "%b %-d, %Y" }}
 			{% if page.author %}
-				• {{ page.author }}
+				• <a href="{{ page.authpage }}">{{ page.author }}</a>
 			{% endif %}
 			{% if page.meta %}
 				• {{ page.meta }}

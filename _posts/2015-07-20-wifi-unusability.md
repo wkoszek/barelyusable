@@ -3,7 +3,9 @@ layout: post
 title:  "Wi-Fi Unusability"
 date:   2015-07-20
 categories: usability
-author: Wojciech Koszek, wojciech@koszek.com
+author: Wojciech Koszek
+authpage: http://www.koszek.com/
+email:	wojciech@koszek.com
 ---
 
 Why are there 100 wireless networks around yet I can't use any of them?

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Payment Systems in the US Are Bad"
-date:   2015-07-20
+title:  'Payment Systems in the US Are Bad'
+date:   2015-07-27
 categories: usability
 author: Wojciech Koszek
 authpage: http://www.koszek.com/

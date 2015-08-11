@@ -61,3 +61,9 @@ new patients or not. Display this information for patients. Add big
 green buttons saying, “Pick as PCP,” on the doctor’s profile. Queue the
 request until handled. E-mail me if something went wrong, and please do
 not send me empty health plan cards.
+
+Why all these things are so important? You don't want to know--I went to a
+wrong doctor once, got charged for it, and don't want to repeat this
+experience.
+
+Have you ever had similar issues?

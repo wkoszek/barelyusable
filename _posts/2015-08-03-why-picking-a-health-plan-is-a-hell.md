@@ -8,6 +8,7 @@ authpage: http://www.koszek.com/
 email:	wojciech@koszek.com
 ---
 
+<br><br>
 
 Somewhere around 2015 I became a customer and patient of the Anthem
 Group. Previously, I’d been with Aetna. To those unfamiliar with the

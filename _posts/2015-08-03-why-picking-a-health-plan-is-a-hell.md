@@ -1,6 +1,6 @@
 ---
 layout: post
-title:	'Picking Your Health Plan? Easy? Hell no.'
+title:	'Why picking a health plan is a hell'
 date:   2015-08-10
 categories: usability
 author: Wojciech Koszek

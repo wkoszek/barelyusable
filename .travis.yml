@@ -7,3 +7,6 @@ rvm:
 script:
 - gem install jekyll
 - make b
+branches:
+  only:
+    - gh-pages

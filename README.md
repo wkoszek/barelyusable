@@ -1,5 +1,7 @@
 # BarelyUsable.com website source code
 
+[![Build Status](https://travis-ci.org/wkoszek/barelyusable.svg)](https://travis-ci.org/wkoszek/barelyusable)
+
 BarelyUsable.com is served from the this repository through Github Pages
 (http://pages.github.com). Whatever you see on BarelyUsable comes from here.
 

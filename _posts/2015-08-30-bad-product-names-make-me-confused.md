@@ -1,10 +1,11 @@
 ---
+layout: post
 title:	'Bad product names confuse me'
-tags:	article
-read:	2015-08-26
-published: true
-ads:
-- 
+date:   2015-08-30
+categories: usability
+author: Wojciech Koszek
+authpage: http://www.koszek.com/
+email:	wojciech@koszek.com
 ---
 
 

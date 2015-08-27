@@ -114,8 +114,10 @@ V = Developers and sysadmins.
 
 Result:
 
-Docker is an environment for sandboxing programs. It’s for developers
-and sysadmins.
+>
+> Docker is an environment for sandboxing programs. It’s for developers
+> and sysadmins.
+>
 
 And by the way, there are people who get it **very** well. Here’s an
 example:

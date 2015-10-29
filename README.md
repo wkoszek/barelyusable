@@ -150,3 +150,8 @@ BarelyUsable started from:
 - http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/
 - http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/
 
+
+# Author
+
+- Wojciech Adam Koszek, [wojciech@koszek.com](mailto:wojciech@koszek.com)
+- [http://www.koszek.com](http://www.koszek.com)

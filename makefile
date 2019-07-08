@@ -5,3 +5,6 @@ t:
 	open http://127.0.0.1:4000
 b:
 	jekyll build
+
+sync:
+	rsync -avr _site/ w:/var/www/barelyusable.com/
